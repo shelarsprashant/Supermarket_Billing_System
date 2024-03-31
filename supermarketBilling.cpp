@@ -53,7 +53,7 @@ m:
         cout << "\t\t\t Password             \n";
         cin >> password;
 
-        if ((email == "pshelar054@gmail.com") && (password == "prash@123"))
+        if ((email == "prash@gmail.com") && (password == "prash@123"))
         {
             administrator();
         }
@@ -404,7 +404,7 @@ void shopping ::receipt()
             cin >> choice;
         } while (choice == 'y');
 
-        cout << "\n\n\t\t\t______________________RECEIPT_________________________\n";
+        cout << "\n\n\t\t\t____________________________________________RECEIPT__________________________________________________\n";
         cout << "\nProduct No\t Product Name\t Product Quantity\tPrice\tAmount\tAmount with discount\n";
 
         for (int i = 0; i < c; i++)
@@ -431,7 +431,7 @@ void shopping ::receipt()
         data.close();
     }
 
-    cout << "\n\n______________________________________________________________________";
+    cout << "\n\n____________________________________________________________________________________________________________";
     cout << "\n Total Amount : " << total;
 }
 
